@@ -1,0 +1,61 @@
+"""Analytics helpers — visualisation theming and statistical utilities."""
+
+from smokefreelab.analytics.clv import (
+    CLVEstimate,
+    CLVSummary,
+    RFMScore,
+    estimate_clv,
+    rfm_score,
+    summarize_clv,
+)
+from smokefreelab.analytics.elasticity import (
+    ElasticityResult,
+    HierarchicalElasticityResult,
+    PriceShockScenario,
+    fit_hierarchical,
+    fit_log_log,
+    simulate_price_shock,
+)
+from smokefreelab.analytics.viz import (
+    COLOR_ACCENT,
+    COLOR_BACKGROUND,
+    COLOR_GRID,
+    COLOR_MUTED,
+    COLOR_NEGATIVE,
+    COLOR_POSITIVE,
+    COLOR_PRIMARY,
+    COLOR_TEXT,
+    FONT_FAMILY,
+    FUNNEL_PALETTE,
+    add_insight_annotation,
+    apply_sfl_theme,
+    format_rupiah,
+)
+
+__all__ = [
+    "COLOR_ACCENT",
+    "COLOR_BACKGROUND",
+    "COLOR_GRID",
+    "COLOR_MUTED",
+    "COLOR_NEGATIVE",
+    "COLOR_POSITIVE",
+    "COLOR_PRIMARY",
+    "COLOR_TEXT",
+    "FONT_FAMILY",
+    "FUNNEL_PALETTE",
+    "CLVEstimate",
+    "CLVSummary",
+    "ElasticityResult",
+    "HierarchicalElasticityResult",
+    "PriceShockScenario",
+    "RFMScore",
+    "add_insight_annotation",
+    "apply_sfl_theme",
+    "estimate_clv",
+    "fit_hierarchical",
+    "fit_log_log",
+    "format_rupiah",
+    "rfm_score",
+    "simulate_price_shock",
+    "summarize_clv",
+]
