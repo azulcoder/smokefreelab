@@ -34,9 +34,7 @@ customer lifetime value, Indonesian commercial analytics.
 #### Contact
 
 - Portfolio: **[smokefreelab](https://github.com/azulcoder/smokefreelab)**
-- Macro research: **[azulanalysis.com](https://azulanalysis.com)**
 - LinkedIn: **[linkedin.com/in/ahmadzulfan](https://www.linkedin.com/in/ahmadzulfan)**
-- Email: `infoman.xyz123@gmail.com`
 ```
 
 ---
