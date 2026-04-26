@@ -11,8 +11,6 @@ Executive-facing artifacts that get forwarded to hiring managers.
 | `executive_onepager.pdf` | PDF | Rendered output of the markdown above. **Build step below.** |
 | `smokefreelab_deck.pptx` | PowerPoint | 10-slide McKinsey-style deck. **Build step below.** |
 | `deck_outline.md` | Markdown | Slide-by-slide outline for the PPTX (narrative + speaker notes). |
-| `cover_letter_sampoerna.md` | Markdown | Tailored cover letter (source). |
-| `cover_letter_sampoerna.pdf` | PDF | Rendered 2-page cover letter. **Build step below.** |
 
 ## Build steps
 
@@ -32,13 +30,6 @@ python3 scripts/render_onepager.py
 ```bash
 python3 scripts/render_deck.py
 # → writes reports/smokefreelab_deck.pptx  (10 slides, 16:9, python-pptx)
-```
-
-### Tailored cover letter
-
-```bash
-python3 scripts/render_cover_letter.py
-# → writes reports/cover_letter_sampoerna.pdf  (2-page A4, reportlab)
 ```
 
 ### Dependencies (one-time)
