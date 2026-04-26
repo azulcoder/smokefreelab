@@ -1,6 +1,5 @@
 ---
 title: SmokeFreeLab Experiment Designer
-emoji: 📊
 colorFrom: indigo
 colorTo: gray
 sdk: streamlit
