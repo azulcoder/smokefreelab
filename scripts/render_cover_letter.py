@@ -143,6 +143,24 @@ def build_story(styles: dict[str, ParagraphStyle]) -> list[object]:
 
     story.append(
         Paragraph(
+            "My recent research on real-time fraud detection &mdash; "
+            "<b>StreamRing: A Cascading Architecture for Real-Time Detection "
+            "of Blockchain Fraud Rings</b> &mdash; was accepted into the "
+            "<b>FinDS Workshop at ACM SIGMOD 2026</b> (Bengaluru, camera-"
+            "ready in preparation). The system pairs a streaming XGBoost "
+            "filter with cascading graph-neural-network inference under "
+            "tight latency budgets (&lt;5 / &lt;50 / &lt;500 ms tiers) and "
+            "reaches <b>97.4% precision</b> with <b>99.2% Ring Detection "
+            "Timeliness</b> across 166 fraud rings on 11.6M transactions. "
+            "The same statistical-rigour habit &mdash; paired t-tests, "
+            "effect sizes, multiple baselines, ablation studies &mdash; "
+            "runs through the FMCG portfolio described below.",
+            s["body"],
+        )
+    )
+
+    story.append(
+        Paragraph(
             "The project is called <b>SmokeFreeLab</b> "
             "(<font color='#8B0000'>github.com/azulcoder/smokefreelab</font>). "
             "It is an end-to-end product-analytics and experimentation "
